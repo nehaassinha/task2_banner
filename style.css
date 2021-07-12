@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+.left {
+  width: 40%;
+  margin: 0px 25px;
+  align-self: flex-start;
+}
+.right {
+  width: 37%;
+  align-self: flex-start;
+  margin: 23.904px 25px;
+  text-align: left;
+  padding-left: 2.5%;
+  border-left: 3px dashed #3c6074;
+}
+.heading {
+  background: #19afc2;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
+.font-color1 {
+  color: #19afc2;
+}
+.font-color2 {
+  color: #ffbf0f;
+}
+.font-color3 {
+  color: #999999;
+}
+.font-color4 {
+  color: #3c6074;
+}
+p {
+  font-weight: bold;
+  line-height: 15px;
+}
+h2 {
+  font-size: 1.8em;
+  line-height: 30px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+.section1 {
+  text-align: center;
+}
+.section1 h2 {
+  font-size: 40px;
+}
+.section2 div {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
+.section2 img {
+  width: 25%;
+  height: 150px;
+}
+.section2 img + div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+.section3 {
+  width: 20%;
+  min-width: 107px;
+  text-align: right;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.section3 h2 + p {
+  margin-top: 0px;
+  font-size: 12px;
+}
+.number {
+  font-size: 50px;
+  line-height: 0.8;
+}
+.number2 {
+  font-size: 45px;
+}
+
+.section4 {
+  display: inline-block;
+  text-align: left;
+  width: 63%;
+}
+.section4 img {
+  padding-top: 23.904px;
+  width: 120%;
+  height: 125px;
+}
+.section4 h2 ~ img {
+  padding: 0;
+  height: 60px;
+  width: 8%;
+}
+.section6 h2 {
+  display: inline-block;
+  font-size: x-large;
+  text-align: center;
+}
+.section6 h2 + h2 {
+  display: inline-block;
+  vertical-align: super;
+}
+.section6 img {
+  width: 22%;
+  height: 73px;
+}
+.section7 h2 {
+  display: inline-block;
+  font-size: x-large;
+  text-align: center;
+}
+.section7 h2 + h2 {
+  display: inline-block;
+  vertical-align: super;
+}
+.section7 img {
+  width: 45%;
+  height: 73px;
+}
+.section8 h2 {
+  display: inline-block;
+  font-size: x-large;
+  text-align: center;
+}
+.section8 h2 + h2 {
+  display: inline-block;
+  vertical-align: super;
+}
+.section8 img {
+  width: 35%;
+  height: 73px;
+}
+.section9 h2 {
+  display: inline-block;
+  font-size: x-large;
+  text-align: center;
+}
+.section9 h2 + h2 {
+  display: inline-block;
+  vertical-align: super;
+}
+.section9 img {
+  width: 30%;
+  height: 73px;
+}
+.section10-image {
+  display: inline-block;
+}
+.section10-content {
+  display: inline-block;
+  width: 75%;
+}
+.section10-image img {
+  width: 100px;
+  height: 100px;
+}
+.section10 p {
+  margin-top: 5px;
+}
